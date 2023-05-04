@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="591.0" prefWidth="1180.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="guii.ShowEvenementController">
+        <children>
+      <ListView fx:id="listView" layoutX="23.0" layoutY="151.0" prefHeight="402.0" prefWidth="698.0" />
+      <AnchorPane prefHeight="25.0" prefWidth="1300.0" style="-fx-background-color: white;">
+         <children>
+            <Button layoutX="1251.0" layoutY="11.0" onAction="#handleClose" prefHeight="17.0" prefWidth="28.0" text="X" textFill="#eee4e4">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button layoutX="643.0" layoutY="566.0" mnemonicParsing="false" onAction="#Commentaire" style="-fx-background-color: orange;" text="Comentaire" />
+      <Text fill="#141414" layoutX="531.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Des Evenements" wrappingWidth="381.8974609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+   </children>
+
+</AnchorPane>

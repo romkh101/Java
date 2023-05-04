@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/service/ParticipantService.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/entity/Participants.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/CommentItemControllerClient.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/AjouterParticipantController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/evenementgestion/EvenementGestion.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/entity/Evenement.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ListParticipant.fxml</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ModifierEvenement.fxml</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/service/EvenementService.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ListViewCommentClient.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/entity/Vote.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ListEvenementController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/mediaplayer/MediaPlayerApp.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ParticipantItemController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ShowParticipantController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ModifierEvenementController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ShowEvenementController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ListViewParticipant.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ShowCommentClientController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/AjouterEvenement.fxml</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/mediaplayer/FXMLDocumentController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ListViewEvenement.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/AjouterEvenementController.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/service/Youtube.java</file>
+            <file>file:/C:/Users/asus/Documents/NetBeansProjects/EvenementGestion/src/guii/ListParticipantController.java</file>
+        </group>
+    </open-files>
+</project-private>
