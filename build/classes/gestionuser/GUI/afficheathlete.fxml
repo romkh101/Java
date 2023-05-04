@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="1101.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="athlete.Gui.AfficheathleteController">
+   <ImageView fitHeight="778.0" fitWidth="1149.0" layoutX="-15.0" layoutY="-59.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="file:/C:/Users/DELL/Downloads/cover.jpg" />
+      </image>
+   </ImageView>
+
+    <TableView fx:id="tblData" opacity="0.87" prefHeight="488.0" prefWidth="651.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="71.0">
+        <columnResizePolicy>
+
+        </columnResizePolicy>
+    </TableView>
+    
+    
+   <Button fx:id="statbtn" layoutX="35.0" layoutY="27.0" mnemonicParsing="false" onAction="#statistiques" text="Statistique" />
+    <Button fx:id="otherButton" layoutX="150.0" layoutY="27.0" mnemonicParsing="false" onAction="#ajoutt" text="AjoutAthlete" />
+     <Button fx:id="otherButton2" layoutX="265.0" layoutY="27.0" mnemonicParsing="false" onAction="#tournoi" text="Tournoi" />
+   <ComboBox fx:id="comboid" layoutX="386.0" layoutY="12.0" onAction="#relation" prefWidth="150.0" />
+
+
+    
+</AnchorPane>
