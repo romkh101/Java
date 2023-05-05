@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.GUI.PrincipalePageController">
+   <left>
+      <VBox prefHeight="650.0" prefWidth="232.0" style="-fx-background-color: #FFA500;" BorderPane.alignment="CENTER">
+         <children>
+            <Label />
+            <Button fx:id="logout" mnemonicParsing="false" onAction="#logout" prefHeight="50.0" prefWidth="121.0" style="-fx-background-color: #00000000;" text="Logout">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/logout.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="226.0" fitWidth="259.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@abcspor.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="10.0" layoutY="564.0" mnemonicParsing="false" onAction="#actualItE" prefHeight="26.0" prefWidth="280.0" style="-fx-background-color: #146C94;" text="Actualité" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="GestionTranBtn" mnemonicParsing="false" onAction="#Evenement" prefHeight="34.0" prefWidth="239.0" style="-fx-background-color: #146C94;" text="Evenements" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#participant" prefHeight="33.0" prefWidth="238.0" style="-fx-background-color: #146C94;" text="Participants" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#Athlete" prefHeight="33.0" prefWidth="238.0" style="-fx-background-color: #146C94;" text="Athlètes" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#Tournoi" prefHeight="33.0" prefWidth="240.0" style="-fx-background-color: #146C94;" text="Tournoi" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#Reclamation" prefHeight="26.0" prefWidth="240.0" style="-fx-background-color: #146C94;" text="Réclamation" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#Message" prefHeight="26.0" prefWidth="238.0" style="-fx-background-color: #146C94;" text="Messages" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" onAction="#Sport" prefHeight="26.0" prefWidth="242.0" style="-fx-background-color: #146C94;" text="Sport" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin></Button>
+         
+           
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <ImageView fitHeight="701" fitWidth="1130" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../GUI/Background.jpg" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>

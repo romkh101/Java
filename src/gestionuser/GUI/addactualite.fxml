@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.controllers.ActualiteController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ee8d37" height="484.0" layoutX="306.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="426.0" />
+      <Label layoutX="334.0" layoutY="156.0" prefWidth="42.0" text="Titre" />
+      <Label fx:id="imglabel" layoutX="332.0" layoutY="234.0" text="Image" />
+      <Label layoutX="324.0" layoutY="331.0" text="Contenu" />
+      <Label layoutX="330.0" layoutY="388.0" text="Auteur" />
+      <Label layoutX="332.0" layoutY="442.0" prefHeight="21.0" prefWidth="42.0" text="Date" />
+      <Label layoutX="320.0" layoutY="493.0" text="Categorie" />
+      <TextField fx:id="titreA" layoutX="434.0" layoutY="151.0" />
+      <TextField fx:id="auteurA" layoutX="427.0" layoutY="387.0" />
+      <TextField fx:id="contenuA" layoutX="427.0" layoutY="330.0" />
+      <DatePicker fx:id="dateA" layoutX="419.0" layoutY="441.0" />
+<Label layoutX="357.0" layoutY="81.0" prefWidth="338.0" text="Ajouter une actualité">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="237.0" fitWidth="308.0" layoutX="-21.0" layoutY="-71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/Aziz/Downloads/piDev-actualite/piDev-actualite/public/assets/images/logo2.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="categorieA" layoutX="440.0" layoutY="492.0" prefWidth="150.0" />
+      <Button fx:id="btnajouterA" layoutX="471.0" layoutY="564.0" mnemonicParsing="false" onAction="#saveactualite" text="Ajouter" />
+      <Button fx:id="choose" layoutX="649.0" layoutY="240.0" mnemonicParsing="false" text="choose.." />
+      <ImageView fx:id="imgview" fitHeight="109.0" fitWidth="187.0" layoutX="434.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

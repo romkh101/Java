@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="1101.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.controllers.AfficheathleteController">
+
+    <TableView fx:id="tblData" layoutY="74.0" opacity="0.84" prefHeight="488.0" prefWidth="651.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="74.0">
+        <columnResizePolicy>
+
+        </columnResizePolicy>
+    </TableView>
+    
+    
+   <Button fx:id="statbtn" layoutX="35.0" layoutY="27.0" mnemonicParsing="false" onAction="#statistiques" text="Statistique" />
+    <Button fx:id="otherButton" layoutX="150.0" layoutY="27.0" mnemonicParsing="false" onAction="#ajoutt" text="AjoutAthlete" />
+
+
+    
+</AnchorPane>

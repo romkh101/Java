@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="587.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.controllers.ShowCommentClientController">
+    <children>
+      <ListView fx:id="listView" layoutX="23.0" layoutY="241.0" prefHeight="312.0" prefWidth="1009.0" />
+      <Button id="UpdateReponse" layoutX="1150.0" layoutY="581.0" onAction="#commenter" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: orange;" text="Commenter" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="contenu" layoutX="22.0" layoutY="570.0" prefHeight="60.0" prefWidth="1009.0" />
+      <Button id="UpdateReponse" layoutX="1150.0" layoutY="358.0" onAction="#Like" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: orange;" text="Like" textFill="#eb9a29">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="UpdateReponse" layoutX="1150.0" layoutY="413.0" onAction="#DesLike" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: orange;" text="deslike" textFill="#f59919">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button id="UpdateReponse" layoutX="1150.0" layoutY="525.0" onAction="#Delete" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: orange;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="nbrLike" layoutX="1091.0" layoutY="369.0" text="Label" textFill="#fff6f6" />
+      <Label fx:id="nbrdeslike" layoutX="1091.0" layoutY="424.0" text="Label" textFill="#fcf5f5" />
+      <Button id="UpdateReponse" fx:id="btnPDF" layoutX="1150.0" layoutY="467.0" onAction="#pdf" prefHeight="39.0" prefWidth="112.0" style="-fx-background-color: orange;" text="Pdf" textFill="#f8f8f8" textOverrun="CENTER_ELLIPSIS">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Text fill="#1b1a1a" layoutX="424.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ajouter des Commentaire" wrappingWidth="451.8974609375">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
