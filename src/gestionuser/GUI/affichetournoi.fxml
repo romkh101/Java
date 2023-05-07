@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="564.0" prefWidth="1101.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.controllers.AffichetournoiController">
+   <ImageView fitHeight="555.0" fitWidth="884.0" layoutX="207.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../images/324358895_851476169484980_5644298934008183501_n.jpg" />
+      </image>
+   </ImageView>
+
+    <TableView fx:id="tblData" layoutX="207.0" layoutY="63.0" opacity="0.77" prefHeight="496.0" prefWidth="884.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="207.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="63.0">
+        <columnResizePolicy>
+
+        </columnResizePolicy>
+    </TableView>
+    
+</AnchorPane>
