@@ -68,7 +68,7 @@ public class PrincipalePageClientController implements Initializable {
     @FXML
     private void part(ActionEvent event) {
            try {
-            AnchorPane view = FXMLLoader.load(getClass().getResource("ListParticipant.fxml"));
+            AnchorPane view = FXMLLoader.load(getClass().getResource("AjouterParticipant.fxml"));
             //System.out.print(view);
             borderPane.setCenter(view);
             
@@ -122,6 +122,30 @@ public class PrincipalePageClientController implements Initializable {
     GuiNavigate nav = new GuiNavigate();
     nav.navigate(event, "GestionUser", "/gestionuser/GUI/Login.fxml");  
     }
+
+    @FXML
+    private void Actualit(ActionEvent event) throws IOException {
+try {
+            AnchorPane view = FXMLLoader.load(getClass().getResource("showwindow.fxml"));
+            //System.out.print(view);
+            borderPane.setCenter(view);
+            
+        } catch (IOException ex) {
+            Logger.getLogger(PrincipalePageClientController.class.getName()).log(Level.SEVERE, null, ex);
+        } 
     
+    }
+
+    @FXML
+    private void ctg(ActionEvent event) {
+        try {
+            AnchorPane view = FXMLLoader.load(getClass().getResource("showcategorie.fxml"));
+            //System.out.print(view);
+            borderPane.setCenter(view);
+            
+        } catch (IOException ex) {
+            Logger.getLogger(PrincipalePageClientController.class.getName()).log(Level.SEVERE, null, ex);
+        } 
     
+    }
 }

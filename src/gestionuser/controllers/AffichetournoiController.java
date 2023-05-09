@@ -194,7 +194,7 @@ tableView.getColumns().setAll(nomColumn, prenomColumn);
                                 Dialog<Void> dialog = new Dialog<>();
 
                                 if (test == false ){
-                                                                    AS.ajouter_Athlete_Tornoi(t.getId(), 0);
+                                                                    AS.ajouter_Athlete_Tornoi(t.getId(), 1);
                                 dialog.setTitle("Valider");
                                 dialog.setHeaderText("Vous avez participer");
                                 }else {

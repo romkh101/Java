@@ -15,25 +15,21 @@
 
 <AnchorPane id="AnchorPane" prefHeight="659.0" prefWidth="1034.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.controllers.ShowwindowController">
    <children>
-      <ImageView fitHeight="1012.0" fitWidth="1405.0" layoutX="-276.0" layoutY="-165.0" opacity="0.81" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="1012.0" fitWidth="1405.0" layoutX="-276.0" layoutY="-165.0" opacity="0.81" pickOnBounds="true" preserveRatio="true" />
+       <ImageView fx:id="bg" fitHeight="637.0" fitWidth="1037.0" layoutY="62.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../Downloads/324358895_851476169484980_5644298934008183501_n.jpg" />
-         </image>
-      </ImageView>
-       <ImageView fx:id="bg" fitHeight="637.0" fitWidth="1037.0" layoutY="59.0" opacity="0.42" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="file:/C:/Users/Aziz/Downloads/piDev-evenement/piDev-evenement/public/assets/images/cover.jpg" />
+            <Image url="file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/GUI/Background.jpg" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ee8d37" height="392.0" layoutX="172.0" layoutY="184.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="708.0" />
-<Label layoutX="423.0" layoutY="82.0" prefWidth="338.0" text="Nos actualités">
+<Label layoutX="427.0" layoutY="98.0" prefWidth="338.0" text="Nos actualités">
          <font>
             <Font name="System Bold Italic" size="31.0" />
          </font>
       </Label>
-      <ImageView fx:id="logo" fitHeight="237.0" fitWidth="308.0" layoutX="-21.0" layoutY="-71.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="logo" fitHeight="237.0" fitWidth="308.0" layoutX="-21.0" layoutY="-71.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/Aziz/Downloads/piDev-actualite/piDev-actualite/public/assets/images/logo2.png" />
+            <Image url="@../../../../../../Downloads/logo2.png" />
          </image>
       </ImageView>
       <TableView fx:id="tvA" layoutX="176.0" layoutY="188.0" opacity="0.87" prefHeight="385.0" prefWidth="701.0">
@@ -57,13 +53,13 @@
       <Button fx:id="btnPDF" layoutX="632.0" layoutY="591.0" mnemonicParsing="false" onAction="#handlePDF" text="PDF" />
       <TextField fx:id="searchtf" layoutX="340.0" layoutY="144.0" prefHeight="31.0" prefWidth="394.0" promptText="Rechercher.." />
 
-<MenuButton layoutX="574.0" layoutY="19.0" text="Categorie">
+<MenuButton layoutX="677.0" layoutY="23.0" text="Categorie">
     <items>
         <MenuItem fx:id="ajoutcat" onAction="#handleajoutcat" text="Ajouter categorie" />
         <MenuItem fx:id="gerercat" onAction="#handlegerercat" text="gérer categories" />
     </items>
 </MenuButton>
-      <MenuButton layoutX="287.0" layoutY="19.0" text="Actualite">
+      <MenuButton layoutX="216.0" layoutY="147.0" text="Actualite">
     <items>
         <MenuItem fx:id="ajoutact" onAction="#handleajoutact" text="Ajouter actualite" />
         <MenuItem fx:id="gereract" onAction="#handlegenreract" text="gérer actualites" />

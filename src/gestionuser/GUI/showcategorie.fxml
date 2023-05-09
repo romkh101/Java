@@ -9,24 +9,24 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.controllers.ShowcategorieController">
+<AnchorPane id="AnchorPane" prefHeight="597.0" prefWidth="1036.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionuser.controllers.ShowcategorieController">
    <children>
        
- <ImageView fitHeight="637.0" fitWidth="1037.0" layoutY="-1.0" opacity="0.42" pickOnBounds="true" preserveRatio="true">
+ <ImageView fitHeight="637.0" fitWidth="1037.0" layoutY="-1.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/Aziz/Downloads/piDev-evenement/piDev-evenement/public/assets/images/cover.jpg" />
+            <Image url="file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/GUI/Background.jpg" />
          </image>
       </ImageView>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="TRANSPARENT" height="70.0" layoutX="-9.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="1046.0" />
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ee8d37" height="424.0" layoutX="242.0" layoutY="173.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="597.0" />
-<Label layoutX="427.0" layoutY="103.0" prefWidth="338.0" text="Nos catégories">
+<Label layoutX="425.0" layoutY="120.0" prefWidth="338.0" text="Nos catégories">
          <font>
             <Font name="System Bold Italic" size="31.0" />
          </font>
       </Label>
       <ImageView fitHeight="237.0" fitWidth="308.0" layoutX="-21.0" layoutY="-71.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/Aziz/Downloads/piDev-actualite/piDev-actualite/public/assets/images/logo2.png" />
+            <Image url="@../../../../../../Downloads/logo2.png" />
          </image>
       </ImageView>
       <TableView fx:id="tvC" layoutX="245.0" layoutY="176.0" opacity="0.82" prefHeight="416.0" prefWidth="589.0">

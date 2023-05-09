@@ -73,8 +73,8 @@ public class RecupMDPController implements Initializable {
                         + "Best regards,\n"
                         + "The application team";
                 sendVerificationEmail(user.getEmail(), message);
-                SmsSender smsSender = new SmsSender();
-                smsSender.sendSms("+21658992538",message);
+             /*   SmsSender smsSender = new SmsSender();
+                smsSender.sendSms("+21658992538",message);*/
 
                 AnimationType type = AnimationType.POPUP;
                 TrayNotification tr = new TrayNotification();

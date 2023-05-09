@@ -53,7 +53,7 @@ public class PrincipalePageController implements Initializable {
     private void actualItE(ActionEvent event) {
               try {
                   
-            AnchorPane view = FXMLLoader.load(getClass().getResource("showwindow.fxml"));
+            AnchorPane view = FXMLLoader.load(getClass().getResource("showfront.fxml"));
             //System.out.print(view);
             borderPane.setCenter(view);
             

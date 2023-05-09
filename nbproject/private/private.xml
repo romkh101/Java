@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/controllers/RecupMDPController.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/controllers/LoginController.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/GUI/PrincipalePageController.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/controllers/AffichetournoiController.java</file>
             <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/GUI/UserFX.java</file>
-            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/controllers/ShowwindowController.java</file>
-            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/GUI/affichetournoi.fxml</file>
-            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/controllers/PrincipalePageController.java</file>
+            <file>file:/C:/Users/Acer/Documents/NetBeansProjects/GestionUser%20-%20Copie/src/gestionuser/GUI/PrincipalePageClientController.java</file>
         </group>
     </open-files>
 </project-private>

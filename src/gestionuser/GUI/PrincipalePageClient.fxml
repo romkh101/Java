@@ -26,6 +26,22 @@
                   <Image url="@images/Logo.jpg" />
                </image>
             </ImageView>
+            <Button mnemonicParsing="false" onAction="#Actualit" prefHeight="34.0" prefWidth="278.0" style="-fx-background-color: #243665;" text="Actualité" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#ctg" prefHeight="34.0" prefWidth="278.0" style="-fx-background-color: #243665;" text="Catégorie" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="3.0" />
+               </VBox.margin>
+            </Button>
             <Button mnemonicParsing="false" onAction="#user" prefHeight="34.0" prefWidth="278.0" style="-fx-background-color: #243665;" text="Utilisateurs" textFill="WHITE">
                <font>
                   <Font name="Times New Roman Bold Italic" size="18.0" />
